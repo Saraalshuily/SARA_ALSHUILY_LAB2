@@ -19,8 +19,9 @@ No server or installation is needed. The form data is not sent anywhere.
 
 ## Files
 - `index.html`: page structure and form
-- `style.css`: styling and visual states
-- `index.js`: validation, live counter and form behavior
+- `css/style.css`: styling and visual states
+- `js/index.js`: validation, live counter and form behavior
+- `screenshots/`: screenshots of the form in different states
 
 ## Testing
 - Submitted an empty form: all required fields show a red border and an error message
