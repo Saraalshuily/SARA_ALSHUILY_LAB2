@@ -21,3 +21,12 @@ No server or installation is needed. The form data is not sent anywhere.
 - `index.html`: page structure and form
 - `style.css`: styling and visual states
 - `index.js`: validation, live counter and form behavior
+
+## Testing
+- Submitted an empty form: all required fields show a red border and an error message
+- Typed an invalid email (`nora@`): error message shown
+- Live counter turns from red to green at 15 characters
+- Valid submit shows "Thanks for your feedback, [name]!" and resets the form after 4 seconds
+- Clear button restores the initial state
+- Checked the layout at mobile width (iPhone 16 in Chrome DevTools) and on desktop
+- Browser console shows no errors
